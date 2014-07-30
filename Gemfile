@@ -21,6 +21,9 @@ gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 
 gem 'figaro'
 
+# Add letteropener for working with mail in dev mode
+gem 'letter_opener', :group => :development
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.2'
 
